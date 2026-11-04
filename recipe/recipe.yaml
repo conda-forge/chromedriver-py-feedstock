@@ -1,7 +1,7 @@
 schema_version: 1
 
 context:
-  version: "156.0.8078.73"
+  version: "157.0.8103.38"
 
 package:
   name: chromedriver-py
@@ -9,7 +9,7 @@ package:
 
 source:
   - url: https://pypi.org/packages/source/c/chromedriver-py/chromedriver_py-${{ version }}.tar.gz
-    sha256: 38cccd306157a8cba0c30e6dc03560490bd7e59457ebbdb3030579826ff5c0bf
+    sha256: c79953d9b7880d4247aeeab36042760d5a5253fa9cc00ddc0aee4413d70f4726
   - if: host_platform == "linux-64"
     then:
       url: https://storage.googleapis.com/chrome-for-testing-public/${{ version }}/linux64/chromedriver-linux64.zip
